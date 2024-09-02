@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#header{
+    width: 100%;
+    height: 13%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: larger;
+   background-color: white;
+    
+}
+.text{
+    color: rgb(0, 0, 78);
+}
+
+.text:hover{
+    color: rgb(99, 176, 209);
+}
+
+#more{
+    display: flex;
+}
+
+#fakeheader{
+
+    width: 100%;
+    height: 13%;
+
+}
+
+#contact{
+   font-weight:lighter;
+}
+
+#icon1{
+    border-radius: 50%;
+    padding: 8px;
+}
+
+#icon2{
+    border-radius: 50%;
+    padding: 8px;
+}
+
+#icon1:hover{
+    background-color: rgb(155, 207, 240);
+}
+
+#icon2:hover{
+    background-color: rgb(155, 207, 240);
+}
+
+#login{
+    padding: 10px;
+    border-radius: 20%;
+}
+
+#login:hover{
+    background-color: rgb(155, 207, 240);
+}
+
+
+#tryfree{
+    padding: 12px;
+    color: white;
+    background-color: green;
+    border-radius: 5%;
+}
+
+#tryfree:hover{
+    background-color: rgb(17, 62, 17);
+}
+
+#smallbaner{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(2, 2, 103);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#page1{
+    width: 100%;
+    height: 87%;
+}
+
+#page2{
+    width: 100%;
+    height: 87%;
+}
+
+
+/* #boxes img{
+    width: 50%;
+    height: 100%;
+
+    object-fit: cover;
+} */
+#boxes{
+
+    width: 100%;
+    height: 79%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#box1{
+    width: 40%;
+    height: 90%;
+    
+    
+}
+
+#box2{
+    width: 40%;
+    height: 90%;
+    background-color: rgb(31, 122, 160);
+}
+
+
+
+#box1 h1{
+    font-weight: 600;
+    font-size: 50px;
+    padding: 10px;
+    margin: 30px 10px;
+    color: rgb(4, 4, 120);
+}
+
+#box1 > p{
+    font-size: x-large;
+    margin: 40px 10px;
+}
+
+
+#box2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#btns{
+    display: flex;
+    margin-top: 70px;
+}
+
+#btn1{
+    
+    margin: 5px;
+    width: 23%;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid rgb(89, 213, 255);
+    background-color: rgb(89, 213, 255);
+    border-radius: 5px;
+
+}
+
+#btn2{
+    margin: 6px;
+    width: 23%;
+    padding: 10px 20px;
+    text-align: center;
+    color: rgb(89, 213, 255);
+    border: 1px solid rgb(89, 213, 255);
+    border-radius: 5px;
+    
+}
+
+#btn1:hover{
+    background-color: rgb(6, 6, 132);
+    border: 1px solid rgb(6, 6, 132) ;
+}
+
+#btn2:hover{
+    color: rgb(6, 6, 132);
+    border: 1px solid rgb(6, 6, 132);
+    background-color: rgb(211, 233, 241);
+}
+
+/* #page2{
+    width: 100%;
+    height: 100%;
+} */
+#top{
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    color: rgb(6, 6, 132);
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+/* #page2 img{
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+} */
+
+#div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.one{
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 0 7px black;
+    border-radius: 7px;
+}
+
+#div1 img{
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+
+#div2 img{
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+
+#div3 img{
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+
+#div4 img{
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+
+#div1 h2{
+    text-align: center;
+    color: rgb(6, 6, 132);
+    margin-top: 8%;
+}
+
+#div1 p{
+    margin: 7%;
+    margin-top: 8%;
+    font-size: large;
+}
+
+#div1 .lm{
+    color: rgb(6, 6, 132);
+    margin: 12%;
+}
+
+
+#div2 h2{
+    text-align: center;
+    color: rgb(6, 6, 132);
+    margin-top: 8%;
+}
+
+#div2 p{
+    margin: 7%;
+    margin-top: 8%;
+    font-size: large;
+}
+
+#div2 .lm{
+    color: rgb(6, 6, 132);
+    margin: 12%;
+}
+
+
+#div3 h2{
+    text-align: center;
+    color: rgb(6, 6, 132);
+    margin-top: 8%;
+}
+
+#div3 p{
+    margin: 7%;
+    margin-top: 8%;
+    font-size: large;
+}
+
+#div3 .lm{
+    color: rgb(6, 6, 132);
+    margin: 12%;
+}
+
+#div4 h2{
+    text-align: center;
+    color: rgb(6, 6, 132);
+    margin-top: 8%;
+}
+
+#div4 p{
+    margin: 7%;
+    margin-top: 8%;
+    font-size: large;
+}
+
+#div4 .lm{
+    color: rgb(6, 6, 132);
+    margin: 12%;
+}
+
+#btnn{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+
+#bgimg{
+    width: 100%;
+    height: 40%;
+}
+#bgimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
